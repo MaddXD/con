@@ -1,16 +1,1 @@
-proxies:
-  - name: SANGGAR15
-    server: 104.21.235.171
-    port: 443
-    type: vless
-    uuid: 2e59cae9-094c-4cdf-92c7-7d13cf479ba1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 90817823561545673166562762924388.v2line.net
-    network: ws
-    ws-opts:
-      path: /V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS
-      headers:
-        Host: 90817823561545673166562762924388.v2line.net
-    udp: true
+vless://2e59cae9-094c-4cdf-92c7-7d13cf479ba1@104.21.235.171:443?path=%2FV2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS&security=tls&alpn=http%2F1.1&encryption=none&host=90817823561545673166562762924388.v2line.net&fp=randomized&type=ws&sni=90817823561545673166562762924388.v2line.net#SANGGAR15

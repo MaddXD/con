@@ -1,1 +1,17 @@
-vless://2e59cae9-094c-4cdf-92c7-7d13cf479ba1@104.21.235.171:443?path=%2FV2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS&security=tls&alpn=http%2F1.1&encryption=none&host=90817823561545673166562762924388.v2line.net&fp=randomized&type=ws&sni=90817823561545673166562762924388.v2line.net#SANGGAR15
+proxies:
+  - name: Trial-VM969
+    server: sg2.vvpnstore.my.id
+    port: 443
+    type: vmess
+    uuid: 58075631-f25c-4210-8740-4568cec1863a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: live.iflix.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2.vvpnstore.my.id
+    udp: true

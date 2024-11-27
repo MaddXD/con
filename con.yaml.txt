@@ -1,17 +1,16 @@
 proxies:
-  - name: aoakaidh-vpnjantit.com
-    server: sg8.vpnjantit.com
-    port: 80
-    type: vmess
-    uuid: 338edbc0-acfe-11ef-8c2d-7f824cb209d1
-    alterId: 0
+  - name: SANGGAR15
+    server: 104.21.235.171
+    port: 443
+    type: vless
+    uuid: 2e59cae9-094c-4cdf-92c7-7d13cf479ba1
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: 90817823561545673166562762924388.v2line.net
     network: ws
     ws-opts:
-      path: /vpnjantit
+      path: /V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS
       headers:
-        Host: ""
+        Host: 90817823561545673166562762924388.v2line.net
     udp: true

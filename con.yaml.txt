@@ -1,17 +1,17 @@
 proxies:
-  - name: TRIAL
-    server: ruangguru.com
+  - name: aoakaidh-vpnjantit.com
+    server: sg8.vpnjantit.com
     port: 80
     type: vmess
-    uuid: 9e780d66-0363-4f36-9459-1ebabe0a1715
+    uuid: 338edbc0-acfe-11ef-8c2d-7f824cb209d1
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: premium-ctb.sing-box.id
+    servername: ""
     network: ws
     ws-opts:
-      path: /buy-vmess-ws-pm-telegram-at-synricha
+      path: /vpnjantit
       headers:
-        Host: premium-ctb.sing-box.id
+        Host: ""
     udp: true

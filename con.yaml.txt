@@ -1,0 +1,17 @@
+proxies:
+  - name: TRIAL
+    server: ruangguru.com
+    port: 80
+    type: vmess
+    uuid: 9e780d66-0363-4f36-9459-1ebabe0a1715
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: premium-ctb.sing-box.id
+    network: ws
+    ws-opts:
+      path: /buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: premium-ctb.sing-box.id
+    udp: true

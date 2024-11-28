@@ -1,19 +1,22 @@
-proxies:
-  - name: Trial-VM969
-    server: sg2.vvpnstore.my.id
-    port: 443
-    type: vmess
-    uuid: 58075631-f25c-4210-8740-4568cec1863a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: live.iflix.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2.vvpnstore.my.id
-    udp: true
-
-vmess://eyAidiI6ICIyIiwgInBzIjogIlRyaWFsLVZNOTY5IiwgImFkZCI6ICJzZzIudnZwbnN0b3JlLm15LmlkIiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjU4MDc1NjMxLWYyNWMtNDIxMC04NzQwLTQ1NjhjZWMxODYzYSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvdm1lc3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAic2cyLnZ2cG5zdG9yZS5teS5pZCIsICJ0bHMiOiAidGxzIiB9Cg==
+☉————————————————————————☉
+🧿Status Create TROJAN Succes🧿
+☉————————————————————————☉
+Remarks          : madd
+Host/IP          : sr2.exceptx.me
+User Quota       : 9999 GB
+User Ip           : 999 IP
+Port             : 400-900
+Key              : 9b09ade1-7c31-4a67-8e6f-b08ea1ee1003
+Path             : /trojan-ws/multi-path
+ServiceName      : trojan-grpc
+☉————————————————————————☉
+Link TLS         : trojan://9b09ade1-7c31-4a67-8e6f-b08ea1ee1003@sr2.exceptx.me:443?path=%2Ftrojan-ws&security=tls&host=sr2.exceptx.me&type=ws&sni=sr2.exceptx.me#madd
+☉————————————————————————☉
+Link GRPC        : trojan://9b09ade1-7c31-4a67-8e6f-b08ea1ee1003@sr2.exceptx.me:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=sr2.exceptx.me#madd
+☉————————————————————————☉
+Format OpenClash : https://sr2.exceptx.me:81/trojan-madd.txt
+☉————————————————————————☉
+Aktif Selama     : 9999 Hari
+Dibuat Pada      : 28 Nov, 2024
+Berakhir Pada    : 14 Apr, 2052
+☉————————————————————————☉

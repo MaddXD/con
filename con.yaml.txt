@@ -1,37 +1,17 @@
-☉————————————————————————☉
-🧿Status Create SSH Succes🧿
-☉————————————————————————☉
- CITY           : Singapore
- ISP            : DigitalOcean, LLC
-☉————————————————————————☉
-Host             : sgdg.exceptx.me
-IP               : 139.59.104.211
-Username         : madd
-Password         : 123
-☉————————————————————————☉
-Limit Quota      : 5000 GB
-Limit Ip         : 500 User
-Port OpenSSH     : 443, 80, 22
-Port SSH UDP     : 1-65535
-Port Dropbear    : 443, 109
-Port SSH WS      : 80, 8080, 8880, 2082
-Port SSH SSL WS  : 443
-Port SSL/TLS     : 400-900
-Port OVPN WS SSL : 443
-Port OVPN SSL    : 443
-Port OVPN TCP    : 443, 1194
-Port OVPN UDP    : 2200
-BadVPN UDP       : 7100, 7300, 7300
-☉————————————————————————☉
-Payload WS       : GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
-☉————————————————————————☉
-Payload WSS      : GET wss://BUG.COM/ HTTP/1.1[crlf]Host: sgdg.exceptx.me[crlf]Upgrade: websocket[crlf][crlf]
-☉————————————————————————☉
-OVPN Download    : https://sgdg.exceptx.me:81/
-☉————————————————————————☉
-Save Link Account: https://sgdg.exceptx.me:81/ssh-madd.txt
-☉————————————————————————☉
-Aktif Selama     : 5999 Hari
-Dibuat Pada      : 29 Nov, 2024
-Berakhir Pada    : 03 May, 2041
-☉————————————————————————☉
+proxies:
+  - name: madd
+    server: sgdg.exceptx.me
+    port: 80
+    type: vmess
+    uuid: 6e77c5fb-9125-4e91-a1f1-9451eb95c68a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sgdg.exceptx.me
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sgdg.exceptx.me
+    udp: true

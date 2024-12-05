@@ -1,17 +1,1 @@
-proxies:
-  - name: madd
-    server: sgdg.exceptx.me
-    port: 80
-    type: vmess
-    uuid: 6e77c5fb-9125-4e91-a1f1-9451eb95c68a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sgdg.exceptx.me
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sgdg.exceptx.me
-    udp: true
+vmess://eyAidiI6ICIyIiwgInBzIjogInRlc3MiLCAiYWRkIjogInNnZGcuZXhjZXB0eC5tZSIsICJwb3J0IjogIjgwIiwgImlkIjogIjc5MjM0ZWEzLWM2MWItNGY4ZC1hYjI3LTM3OWE2YzcyNTkzOSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvdm1lc3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAic2dkZy5leGNlcHR4Lm1lIiwgInRscyI6ICJub25lIiB9Cg==
